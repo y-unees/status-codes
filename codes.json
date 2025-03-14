@@ -1,0 +1,194 @@
+{
+    "codes": [
+        {
+            "code": 200,
+            "name": "OK",
+            "description": "The request succeeded."
+        },
+        {
+            "code": 404,
+            "name": "Not Found",
+            "description": "The server cannot find the requested resource."
+        },
+        {
+            "code": 500,
+            "name": "Internal Server Error",
+            "description": "The server encountered an unexpected condition."
+        },
+        {
+            "code": 403,
+            "name": "Forbidden",
+            "description": "The client does not have access rights to the content."
+        },
+        {
+            "code": 401,
+            "name": "Unauthorized",
+            "description": "Authentication is required and has failed or has not been provided."
+        },
+        {
+            "code": 400,
+            "name": "Bad Request",
+            "description": "The server could not understand the request due to invalid syntax."
+        },
+        {
+            "code": 302,
+            "name": "Found (Moved Temporarily)",
+            "description": "The resource has been temporarily moved to another location."
+        },
+        {
+            "code": 301,
+            "name": "Moved Permanently",
+            "description": "The resource has been permanently moved to another location."
+        },
+        {
+            "code": 304,
+            "name": "Not Modified",
+            "description": "Indicates the resource has not changed since the last request."
+        },
+        {
+            "code": 201,
+            "name": "Created",
+            "description": "A new resource has been successfully created."
+        },
+        {
+            "code": 503,
+            "name": "Service Unavailable",
+            "description": "The server is temporarily unable to handle the request."
+        },
+        {
+            "code": 502,
+            "name": "Bad Gateway",
+            "description": "The server received an invalid response from the upstream server."
+        },
+        {
+            "code": 405,
+            "name": "Method Not Allowed",
+            "description": "The request method is known by the server but is not supported."
+        },
+        {
+            "code": 409,
+            "name": "Conflict",
+            "description": "The request conflicts with the current state of the resource."
+        },
+        {
+            "code": 429,
+            "name": "Too Many Requests",
+            "description": "The user has sent too many requests in a given time."
+        },
+        {
+            "code": 206,
+            "name": "Partial Content",
+            "description": "The server is delivering only part of the resource due to a range request."
+        },
+        {
+            "code": 204,
+            "name": "No Content",
+            "description": "The request was successful, but there is no content to send."
+        },
+        {
+            "code": 202,
+            "name": "Accepted",
+            "description": "The request has been received but not yet processed."
+        },
+        {
+            "code": 203,
+            "name": "Non-Authoritative Information",
+            "description": "Returned metadata is not from the origin server."
+        },
+        {
+            "code": 205,
+            "name": "Reset Content",
+            "description": "The client should reset the document view."
+        },
+        {
+            "code": 100,
+            "name": "Continue",
+            "description": "The client should continue with its request."
+        },
+        {
+            "code": 101,
+            "name": "Switching Protocols",
+            "description": "The server is switching protocols as requested."
+        },
+        {
+            "code": 102,
+            "name": "Processing",
+            "description": "The server has received the request and is processing it."
+        },
+        {
+            "code": 103,
+            "name": "Early Hints",
+            "description": "Allows preloading of resources while preparing a response."
+        },
+        {
+            "code": 418,
+            "name": "I'm a Teapot",
+            "description": "An April Fools' joke from 1998, not used in practice."
+        },
+        {
+            "code": 451,
+            "name": "Unavailable For Legal Reasons",
+            "description": "The resource is restricted due to legal reasons."
+        },
+        {
+            "code": 428,
+            "name": "Precondition Required",
+            "description": "The server requires the request to be conditional."
+        },
+        {
+            "code": 412,
+            "name": "Precondition Failed",
+            "description": "One or more conditions in the request header fields were not met."
+        },
+        {
+            "code": 415,
+            "name": "Unsupported Media Type",
+            "description": "The request media format is not supported by the server."
+        },
+        {
+            "code": 417,
+            "name": "Expectation Failed",
+            "description": "The server cannot meet the requirements of the Expect header."
+        },
+        {
+            "code": 422,
+            "name": "Unprocessable Entity",
+            "description": "The request was well-formed but could not be followed due to semantic errors."
+        },
+        {
+            "code": 423,
+            "name": "Locked",
+            "description": "The resource is locked and cannot be accessed."
+        },
+        {
+            "code": 424,
+            "name": "Failed Dependency",
+            "description": "The request failed due to a failure of a previous request."
+        },
+        {
+            "code": 508,
+            "name": "Loop Detected",
+            "description": "The server detected an infinite loop while processing the request."
+        },
+        {
+            "code": 207,
+            "name": "Multi-Status",
+            "description": "Provides multiple status responses for multiple operations."
+        },
+        {
+            "code": 208,
+            "name": "Already Reported",
+            "description": "The resource was already reported in the response."
+        },
+        {
+            "code": 226,
+            "name": "IM Used",
+            "description": "The server has fulfilled a request for the resource."
+        },
+        {
+            "code": 510,
+            "name": "Not Extended",
+            "description": "Further extensions are required for the request to be fulfilled."
+        }
+    ]
+}
